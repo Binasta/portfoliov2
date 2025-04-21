@@ -77,7 +77,7 @@ ul {
 .btn-secondary:hover {
     background-color: var(--primary-color);
     color: #fac9a9;
-    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+    box-shadow: 0 4px 15px var(--primary-color);
 }
 
 .section-title {
@@ -319,7 +319,7 @@ header.scrolled {
     position: relative;
     border-radius: 1rem;
     overflow: hidden;
-    box-shadow: var(--card-shadow);
+    box-shadow: var(--primary-color);
 }
 
 .about-image img {
@@ -375,7 +375,7 @@ header.scrolled {
     padding: 1.5rem;
     background-color: #fac9a9;
     border-radius: 10px;
-    box-shadow: var(--card-shadow);
+    box-shadow: var(--primary-color);
     transition: var(--transition);
 }
 
@@ -410,7 +410,7 @@ header.scrolled {
     background-color: #fac9a9;
     border-radius: 1rem;
     overflow: hidden;
-    box-shadow: var(--card-shadow);
+    box-shadow: var(--primary-color);
     transition: var(--transition);
     position: relative;
     height: 100%;
@@ -622,7 +622,7 @@ header.scrolled {
     background-color: #fac9a9;
     border-radius: 1rem;
     padding: 3rem;
-    box-shadow: var(--card-shadow);
+    box-shadow: var(--primary-color);
 }
 
 .form-title {
@@ -646,7 +646,7 @@ header.scrolled {
     width: 100%;
     padding: 0.8rem 1rem;
     font-size: 1rem;
-    border: 1px solid #e2e8f0;
+    border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
     transition: var(--transition);
 }
@@ -654,7 +654,7 @@ header.scrolled {
 .form-control:focus {
     border-color: var(--primary-color);
     outline: none;
-    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+    box-shadow: 0 0 0 3px var(--primary-color);
 }
 
 textarea.form-control {
@@ -849,7 +849,7 @@ footer {
 .gallery-item {
     border-radius: 0.5rem;
     overflow: hidden;
-    box-shadow: var(--card-shadow);
+    box-shadow: var(--primary-color);
 }
 
 .gallery-item img {
