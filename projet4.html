@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet 1 - Portfolio</title>
+    <title>TP-Socially</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,11 +11,11 @@
     <header id="header">
         <div class="container">
             <nav class="navbar">
-                <a href="index.html" class="logo">Port<span>folio</span></a>
+                <a href="index.html" class="logo">Dev<span>XR</span></a>
                 <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="index.html" class="nav-link active">Accueil</a></li>
                     <li><a href="index.html#about" class="nav-link">À propos</a></li>
-                    <li><a href="index.html#projects" class="nav-link active">Projets</a></li>
+                    <li><a href="index.html#projects" class="nav-link">Projets</a></li>
                     <li><a href="index.html#contact" class="nav-link">Contact</a></li>
                 </ul>
                 <button class="hamburger">
@@ -32,11 +32,12 @@
     <!-- Hero du projet -->
     <section class="project-hero">
         <div class="container">
-            <h1 class="project-hero-title">Projet 1</h1>
+            <h1 class="project-hero-title">TP-Socially</h1>
             <div class="project-categories">
-                <span class="project-category">HTML</span>
-                <span class="project-category">CSS</span>
-                <span class="project-category">JavaScript</span>
+                <span class="project-category">Typescript</span>
+                <span class="project-category">React</span>
+                <span class="project-category">Tailwind CSS</span>
+                <span class="project-category">Prisma</span>
             </div>
         </div>
     </section>
@@ -47,9 +48,8 @@
             <!-- Résumé du projet -->
             <div class="project-section">
                 <h2 class="project-section-title">Résumé du projet</h2>
-                <p>Ce projet consiste en la création d'un site web responsive pour une entreprise fictive. L'objectif était de concevoir une interface utilisateur moderne et intuitive qui mette en valeur les services de l'entreprise tout en offrant une expérience de navigation fluide sur tous les appareils.</p>
-                <p>Le site comprend une page d'accueil, une section services, une page à propos, une galerie de projets, et un formulaire de contact fonctionnel. Une attention particulière a été portée à l'accessibilité et aux performances.</p>
-            </div>
+                <p>Ce projet consiste à développer un réseau social moderne utilisant les dernières technologies web. L'application exploite la puissance de Next.js avec App Router, une base de données PostgreSQL gérée via Prisma, et Clerk pour l'authentification. Le réseau social offre des fonctionnalités complètes incluant l'authentification des utilisateurs, le partage de contenu, les téléchargements de fichiers, et des interactions sociales en temps réel, le tout construit avec TypeScript pour assurer la robustesse du code.</p>
+                </div>
 
             <!-- Technologies utilisées -->
             <div class="project-section">
@@ -61,7 +61,7 @@
                             <line x1="16" y1="8" x2="2" y2="22"></line>
                             <line x1="17.5" y1="15" x2="9" y2="15"></line>
                         </svg>
-                        HTML5
+                        Typescript
                     </div>
                     <div class="tech-item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -69,7 +69,7 @@
                             <line x1="16" y1="8" x2="2" y2="22"></line>
                             <line x1="17.5" y1="15" x2="9" y2="15"></line>
                         </svg>
-                        CSS3
+                        React
                     </div>
                     <div class="tech-item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -77,7 +77,7 @@
                             <line x1="16" y1="8" x2="2" y2="22"></line>
                             <line x1="17.5" y1="15" x2="9" y2="15"></line>
                         </svg>
-                        JavaScript
+                        Tailwind CSS
                     </div>
                     <div class="tech-item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -85,15 +85,7 @@
                             <line x1="16" y1="8" x2="2" y2="22"></line>
                             <line x1="17.5" y1="15" x2="9" y2="15"></line>
                         </svg>
-                        Responsive Design
-                    </div>
-                    <div class="tech-item">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
-                            <line x1="16" y1="8" x2="2" y2="22"></line>
-                            <line x1="17.5" y1="15" x2="9" y2="15"></line>
-                        </svg>
-                        SEO
+                        Prisma
                     </div>
                 </div>
 
@@ -121,12 +113,12 @@
                 <h2 class="project-section-title">Défis et solutions</h2>
                 <p>Au cours de ce projet, j'ai rencontré plusieurs défis intéressants :</p>
                 <ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 20px;">
-                    <li>Créer une expérience utilisateur cohérente sur tous les appareils, des téléphones mobiles aux grands écrans</li>
-                    <li>Optimiser les performances du site pour garantir des temps de chargement rapides</li>
-                    <li>Implémenter un formulaire de contact sécurisé avec validation côté client et serveur</li>
-                    <li>Assurer l'accessibilité du site pour tous les utilisateurs, y compris ceux utilisant des technologies d'assistance</li>
+                    <li>Gérer efficacement les composants serveur et client avec Next.js</li>
+                    <li>Mettre en place un système d'authentification sécurisé et performant</li>
+                    <li>Maintenir une architecture de code évolutive face à la croissance des fonctionnalités</li>
+                    <li>Implémenter des mises à jour en temps réel avec une bonne expérience utilisateur</li>
                 </ul>
-                <p>Pour résoudre ces défis, j'ai adopté une approche mobile-first, en utilisant des requêtes média pour adapter l'interface aux différentes tailles d'écran. J'ai également optimisé les images et minifié les fichiers CSS et JavaScript pour améliorer les performances. La validation du formulaire a été implémentée en JavaScript, avec des vérifications supplémentaires côté serveur.</p>
+                <p>Pour relever ces défis, j'ai tiré parti de l'architecture hybride de Next.js en séparant judicieusement les composants serveur et client pour optimiser les performances. L'authentification est gérée par Clerk qui offre une solution robuste tout en simplifiant l'implémentation. Les mises à jour en temps réel bénéficient d'optimistic updates pour une réactivité immédiate, tandis que les Server Actions assurent la cohérence des données. L'architecture modulaire avec Prisma et TypeScript garantit un code maintenable et évolutif, tandis que l'intégration d'UploadThing simplifie la gestion des téléchargements de fichiers tout en assurant leur sécurité.</p>
             </div>
 
             <!-- Galerie du projet -->
@@ -134,13 +126,10 @@
                 <h2 class="project-section-title">Captures d'écran</h2>
                 <div class="gallery-grid">
                     <div class="gallery-item">
-                        <img src="https://via.placeholder.com/600x400?text=Capture+d'écran+1" alt="Capture d'écran 1 du projet">
+                        <img src="Pasted image (3).png" alt="Capture d'écran 1 du projet">
                     </div>
                     <div class="gallery-item">
-                        <img src="https://via.placeholder.com/600x400?text=Capture+d'écran+2" alt="Capture d'écran 2 du projet">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="https://via.placeholder.com/600x400?text=Capture+d'écran+3" alt="Capture d'écran 3 du projet">
+                        <img src="Pasted image (5).png" alt="Capture d'écran 2 du projet">
                     </div>
                 </div>
             </div>
@@ -158,32 +147,31 @@
         </div>
     </div>
 
-    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-container">
                 <div class="footer-col footer-about">
                     <h3>À propos</h3>
-                    <p>Je suis un développeur web passionné par la création d'expériences numériques exceptionnelles. N'hésitez pas à me contacter pour discuter de votre prochain projet.</p>
+                    <p>Actuellement étudiant en école d'ingénieur spécialisé dans l'informatique, je suis un développeur web junior, mais compétent. N'hésitez pas à me contacter pour discuter de votre prochain projet.</p>
                     <div class="footer-social">
-                        <a href="#" class="social-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        <a href="https://discord.com/" class="social-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="-3 -3 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
                             </svg>
                         </a>
-                        <a href="#" class="social-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                        <a href="https://www.instagram.com/bastian_1204/" class="social-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="-4 -3 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
                             </svg>
                         </a>
-                        <a href="#" class="social-icon">
+                        <a href="https://www.linkedin.com/in/bastian-beaufils-534130253/" class="social-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
                                 <rect x="2" y="9" width="4" height="12"></rect>
                                 <circle cx="4" cy="4" r="2"></circle>
                             </svg>
                         </a>
-                        <a href="#" class="social-icon">
+                        <a href="https://github.com/Binasta" class="social-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                             </svg>
@@ -194,30 +182,32 @@
                 <div class="footer-col footer-links">
                     <h3>Liens rapides</h3>
                     <ul>
-                        <li><a href="index.html">Accueil</a></li>
-                        <li><a href="index.html#about">À propos</a></li>
-                        <li><a href="index.html#projects">Projets</a></li>
-                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#projects">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-col footer-links">
                     <h3>Mes projets</h3>
                     <ul>
-                        <li><a href="projet1.html">Projet 1</a></li>
-                        <li><a href="projet2.html">Projet 2</a></li>
-                        <li><a href="projet3.html">Projet 3</a></li>
-                        <li><a href="projet4.html">Projet 4</a></li>
-                        <li><a href="projet5.html">Projet 5</a></li>
+                        <li><a href="projet1.html">Portfolio v1</a></li>
+                        <li><a href="projet2.html">TP-Restaurant</a></li>
+                        <li><a href="projet3.html">TP-Reservation</a></li>
+                        <li><a href="projet4.html">TP-Socially</a></li>
+                        <li><a href="projet5.html">TP-Gestion de Projet</a></li>
+                        <li><a href="projet6.html">Portfolio v2</a></li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 Votre Nom. Tous droits réservés.</p>
+                <p>&copy; 2025 BEAUFILS Bsatian. Tous droits réservés.</p>
             </div>
         </div>
     </footer>
+
 
     <!-- JavaScript -->
     <script src="script.js"></script>
